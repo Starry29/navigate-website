@@ -53,8 +53,12 @@ ul,li {
 
 }
 
-search-tab:focus {
-  background-color: aqua;
+div.search-tab:focus {
+  background-color: white;
+}
+
+div.search-tab:focus::after {
+  background-color: white;
 }
 
 #search-input > input {
@@ -122,7 +126,7 @@ search-tab:focus {
 }
 
 #websites .item {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 #websites .list h2 {
@@ -139,24 +143,25 @@ search-tab:focus {
   margin-top: 20px;
 }
 
-#websites .tag {
+#websites .logo {
   padding: 4px 16px;
   margin: 4px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
-#websites .tag:nth-child(4n+1) {
+#websites .logo:nth-child(4n+1) {
   background: lightskyblue;
 }
 
-#websites .tag:nth-child(4n+2) {
+#websites .logo:nth-child(4n+2) {
   background: lightpink;
 }
 
-#websites .tag:nth-child(4n+3) {
+#websites .logo:nth-child(4n+3) {
   background: lightgray;
 }
 
-#websites .tag:nth-child(4n+4) {
+#websites .logo:nth-child(4n+4) {
   background: lightblue;
 }
