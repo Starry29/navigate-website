@@ -53,10 +53,6 @@ ul,li {
 
 }
 
-search-tab:active {
-  background-color: aqua;
-}
-
 search-tab:focus {
   background-color: aqua;
 }
