@@ -47,10 +47,14 @@ ul,li {
   background-color: rgba(255, 255, 255, 0.4);
   padding: 4px 10px;
   margin-right: 10px;
-  border-radius: 20px;
-  font-size: 18px;
+  border-radius: 6px;
+  font-size: 16px;
   cursor: pointer;
 
+}
+
+search-tab:active {
+  background-color: aqua;
 }
 
 search-tab:focus {
@@ -76,7 +80,7 @@ search-tab:focus {
 
 #search-input {
   position: relative;
-  border-radius: 10px;
+  border-radius: 4px;
   margin-top: 10px;
   background-color: rgba(255, 255, 255, 0.6);
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
@@ -134,7 +138,7 @@ search-tab:focus {
   display: flex;
   flex-wrap: wrap;
   background: rgba(255, 255, 255, 0.6);
-  border-radius: 6px;
+  border-radius: 4px;
   padding: 10px;
   margin-top: 20px;
 }
@@ -142,7 +146,7 @@ search-tab:focus {
 #websites .tag {
   padding: 4px 16px;
   margin: 4px;
-  border-radius: 6px;
+  border-radius: 4px;
 }
 
 #websites .tag:nth-child(4n+1) {
